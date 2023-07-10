@@ -1,0 +1,16 @@
+app:
+  name: maccabi-demo
+  namespace: maccabi-demo-dev
+  cluster: .apps.cluster-cl4w8.cl4w8.sandbox526.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/LiorJanus/maccabi-demo
+  org: LiorJanus
+  name: maccabi-demo
+
+image:
+  registry: Quay
+  host: quay.io
+  organization: liorjanus
+  name: maccabi-demo
